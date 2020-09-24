@@ -1,0 +1,110 @@
+
+
+body {
+    background-color: #2ECC71;
+}
+
+.container {
+    height: 150px;
+    width: 350px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+.word-box {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#word-input {
+    border: 5px solid #27AE60;
+    padding: 9px 40px;
+    outline: none;
+}
+
+#word-btn {
+    background-color: #27AE60;
+    color: white;
+    border: none;
+    padding: 13px 16px;
+    outline: none;
+
+}
+
+li {
+    font-size: 20px;
+    margin: 10px 15px;
+    vertical-align: bottom;
+    color: white;
+}
+
+#delBtn {
+    background-color: #34495E;
+    border: none;
+    height: 100%;
+    width: 100%;
+    vertical-align: bottom;
+    color: white;
+    outline: none;
+}
+
+table {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, tr, td {
+    border: 0px;
+    height: 40px;
+}
+
+tr:nth-child(odd){
+    background-color: #f1f1f1;
+}
+
+
+#th1 {
+    width : 20%;
+    background-color: #27AE60;
+    color: white;
+}
+
+#th2 {
+    background-color: #27AE60;
+    color: white;
+}
+
+#th3 {
+    background-color: #27AE60;
+    color: white;
+    width: 14%;
+}
+
+#td2 {
+    font-size: 12px;
+    text-align: left;
+}

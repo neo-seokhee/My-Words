@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+
+    "name": "My Words",
+    "description": "당신을 위한 크롬 영어단어장",
+    "version": "1.03",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "icons": {
+        "128": "icon.png",
+        "16": "icon.png",
+        "32": "icon.png",
+        "48":  "icon.png"
+    },
+
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs",
+        "*://*.naver.com/*"
+    ]
+  }
